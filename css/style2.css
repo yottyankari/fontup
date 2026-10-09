@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Tegakifont';
+    src: url('./fonts/font.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #eee;
+    font-family: Tegakifont;
+}
+
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+.version-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.version-item {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 0;
+    transition: 0.2s;
+}
+
+    .version-item:hover {
+        color: #fff;
+    }
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    font-size: 14px;
+}
